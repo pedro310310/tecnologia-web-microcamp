@@ -1,0 +1,13 @@
+ul, ol, dd, dt {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+dt{
+    font-weight: bold;
+    margin-left: 20px;
+}
