@@ -1,0 +1,48 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 06 - Formulario e tabela usando Java script</title>
+    <link rel="shortcut icon" href="../../aula03/part01/img/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./Formulario.css">
+    <script src="./formulario.js"></script>
+
+</head>
+
+<body>
+    <span><a href="../index.html">Voltar</a></span>
+    <h2>Aula 06 - Parte 1: formulario e tabela usando JavaScript </h2>
+    <hr>
+    <form action="" id="linhaForm">
+        <input type="text" name="nome" id="nome" placeholder="digite seu nome" required>
+        <br><br>
+        <input type="number" name="idade" id="idade" placeholder="Digite sua idade" required>
+        <br><br>
+        <label for="admissao">admissão</label>
+        <br>
+        <input type="date" name="admissao" id="demissao" required>
+        <br><br>
+        <label for="demissao">demissão</label>
+        <br>
+        <input type="date" name="demissao" id="demissao" required>
+        <br><br>
+        <button type="button" onclick="adicionarLinha()">Adicionar</button>
+        <br><br>
+    </form>
+    <table id="tabelaDados">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Admissão</th>
+                <th>Demissão</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</body>
+
+</html>
